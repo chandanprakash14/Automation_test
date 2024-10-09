@@ -1,0 +1,30 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Demo Login",
+    "description": "",
+    "elements": [
+      {
+        "keyword": "Scenario",
+        "name": "Successful Login",
+        "steps": [
+          {
+            "keyword": "Given",
+            "name": "I am on the Demo Login Page",
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "keyword": "When",
+            "name": "I fill the account information for account StandardUser",
+            "result": {
+              "status": "passed"
+            }
+          },
+          // more steps...
+        ]
+      }
+    ]
+  }
+]
